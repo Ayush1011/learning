@@ -1,0 +1,110 @@
+{
+  "project_info": {
+    "project_number": "587097664227",
+    "firebase_url": "https://learning-d8994.firebaseio.com",
+    "project_id": "learning-d8994",
+    "storage_bucket": "learning-d8994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587097664227:android:ee7d0d62c47457b6",
+        "android_client_info": {
+          "package_name": "com.ac.learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587097664227-fdg7imo7b292lot0jc7ou67al2h3tljn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ac.learning",
+            "certificate_hash": "83507c25e20fb101d5ac56aa248340ff474d5097"
+          }
+        },
+        {
+          "client_id": "587097664227-mjj2is00ss29qn9nuh6jumi7ibbfjc5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ac.learning",
+            "certificate_hash": "0516139c313a984d17bfe61c92f03380e43be85d"
+          }
+        },
+        {
+          "client_id": "587097664227-ns6mequq47cbcrb8qf9cop78odimt94f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ac.learning",
+            "certificate_hash": "b583ee261195fe38e604e410e4345cb038b7b4d5"
+          }
+        },
+        {
+          "client_id": "587097664227-lbiqhch3foh5etdj082ojd5le1sc79n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD72OrjKHrhdejXJ2TlmPw1gqmlxwmOzrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587097664227-lbiqhch3foh5etdj082ojd5le1sc79n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587097664227:android:f869d99611641c62",
+        "android_client_info": {
+          "package_name": "com.learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587097664227-ukje3tmrg6aq9uq4srgb033904pa59l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning",
+            "certificate_hash": "b583ee261195fe38e604e410e4345cb038b7b4d5"
+          }
+        },
+        {
+          "client_id": "587097664227-6fit7v04gnej65rnl0ptuht3l44rsl45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.learning",
+            "certificate_hash": "0516139c313a984d17bfe61c92f03380e43be85d"
+          }
+        },
+        {
+          "client_id": "587097664227-lbiqhch3foh5etdj082ojd5le1sc79n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD72OrjKHrhdejXJ2TlmPw1gqmlxwmOzrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587097664227-lbiqhch3foh5etdj082ojd5le1sc79n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3393717029966012~9208889651"
+    }
+  ],
+  "configuration_version": "1"
+}
