@@ -1,2 +1,2 @@
 # learning
-this app is for providing questin paper
+this app is for providing question paper
