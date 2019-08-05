@@ -893,11 +893,292 @@ export default [{
             name: '2 year B.Tech Weaving SEM EXAM',
         },
         subject: 'Gujarat Technological University/B.E/2nd Year/Weaving (SEM EXAM).pdf',
-    },{
+    },
+    {
         id: 121,
         user: {
             name: '2 year B.Tech Yarn Manufacturing SEM EXAM',
         },
         subject: 'Gujarat Technological University/B.E/2nd Year/Yarn Manufacturing (SEM EXAM).pdf',
+    },
+    {
+        id: 122,
+        user: {
+            name: '1 year MCA Communication Skills SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Communication Skills (SEM EXAM).pdf',
+    },
+    {
+        id: 123,
+        user: {
+            name: '1 year MCA Computer Oriented Numerical Methods SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Computer Oriented Numerical Methods (SEM EXAM).pdf',
+    },
+    {
+        id: 124,
+        user: {
+            name: '1 year MCA Data Structure SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Data Structure (SEM EXAM).pdf',
+    },
+    {
+        id: 125,
+        user: {
+            name: '1 year MCA DATABASE MANAGEMENT SYSTEM SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/DATABASE MANAGEMENT SYSTEM (SEM EXAM).pdf',
+    },
+    {
+        id: 126,
+        user: {
+            name: '1 year MCA Discrete Mathematics for Computer Science SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Discrete Mathematics for Computer Science (SEM EXAM).pdf',
+    },{
+        id: 127,
+        user: {
+            name: '1 year MCA Enterprise Resource Planning SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Enterprise Resource Planning (SEM EXAM).pdf',
+    },
+    {
+        id: 128,
+        user: {
+            name: '1 year MCA Fundamental of Web SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Fundamental of Web (SEM EXAM).pdf',
+    },
+    {
+        id: 129,
+        user: {
+            name: '1 year MCA Fundamentals of Computer Organization SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Fundamentals of Computer Organization (SEM EXAM).pdf',
+    },
+    {
+        id: 130,
+        user: {
+            name: '1 year MCA Fundamentals of Programming END SEM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Fundamentals of Programming (END SEM).pdf',
+    },
+    {
+        id: 131,
+        user: {
+            name: '1 year MCA Fundamentals of Programming SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Fundamentals of Programming (SEM EXAM).pdf',
+    },
+    {
+        id: 132,
+        user: {
+            name: '1 year MCA Object-Oriented Programming Concepts & Programming SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Object-Oriented Programming Concepts & Programming (SEM EXAM).pdf',
+    }, {
+        id: 133,
+        user: {
+            name: '1 year MCA Program Design techniques SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/1st Year/Program Design techniques (SEM EXAM).pdf',
+    },{
+        id: 134,
+        user: {
+            name: '2 year MCA Advanced Python SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Advanced Python (SEM EXAM).pdf',
+    },{
+        id: 135,
+        user: {
+            name: '2 year MCA Basic Computer Science END SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Computer Science (END SEM EXAM).pdf',
+    },{
+        id: 136,
+        user: {
+            name: '2 year MCA Basic Computer Science SEM END EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Computer Science (SEM END EXAM).pdf',
+    },{
+        id: 137,
+        user: {
+            name: '2 year MCA Basic Computer Science SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Computer Science (SEM EXAM).pdf',
+    },{
+        id: 138,
+        user: {
+            name: '2 year MCA Basic Computer Science SEMESTER EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Computer Science (SEMESTER EXAM).pdf',
+    },{
+        id: 139,
+        user: {
+            name: '2 year MCA Basic Mathematics SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Mathematics (SEM EXAM).pdf',
+    },{
+        id: 140,
+        user: {
+            name: '2 year MCA Basic Statistics SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Basic Statistics (SEM EXAM).pdf',
+    },{
+        id: 141,
+        user: {
+            name: '2 year MCA Cloud Computing SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Cloud Computing (SEM EXAM).pdf',
+    },{
+        id: 142,
+        user: {
+            name: '2 year MCA Computer Graphics SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Computer Graphics (SEM EXAM).pdf',
+    },{
+        id: 143,
+        user: {
+            name: '2 year MCA Cyber Security and Forensics SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Cyber Security and Forensics (SEM EXAM).pdf',
+    },{
+        id: 144,
+        user: {
+            name: '2 year MCA Data Analytics with R SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Data Analytics with R (SEM EXAM).pdf',
+    },{
+        id: 145,
+        user: {
+            name: '2 year MCA Data Mining SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Data Mining (SEM EXAM).pdf',
+    },{
+        id: 146,
+        user: {
+            name: '2 year MCA Data Warehousing  and Data Mining DWDM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Data Warehousing mIand Data Mining (DWDM).pdf',
+    },{
+        id: 147,
+        user: {
+            name: '2 year MCA Data Warehousing SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Data Warehousing SEM EXAM).pdf',
+    },{
+        id: 148,
+        user: {
+            name: '2 year MCA Distributed Computing SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Distributed Computing (SEM EXAM).pdf',
+    },{
+        id: 149,
+        user: {
+            name: '2 year MCA Dynamic HTML Sem Exam',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Dynamic HTML (Sem Exam).pdf',
+    },{
+        id: 150,
+        user: {
+            name: '2 year MCA Function Programming with JAVA SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Function Programming with JAVA (SEM EXAM).pdf',
+    },{
+        id: 151,
+        user: {
+            name: '2 year MCA Fundamental of Networking SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Fundamental of Networking (SEM EXAM).pdf',
+    },{
+        id: 152,
+        user: {
+            name: '2 year MCA Information Security SEM END EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Information Security (SEM END EXAM).pdf',
+    },{
+        id: 153,
+        user: {
+            name: '2 year MCA Management Information System SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Management Information System (SEM EXAM).pdf',
+    },{
+        id: 154,
+        user: {
+            name: '2 year MCA Network Security SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Network Security (SEM EXAM).pdf',
+    },{
+        id: 155,
+        user: {
+            name: '2 year MCA Operating Systems SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Operating Systems (SEM EXAM).pdf',
+    },{
+        id: 156,
+        user: {
+            name: '2 year MCA Operations Research SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Operations Research (SEM EXAM).pdf',
+    },{
+        id: 157,
+        user: {
+            name: '2 year MCA Procedure Programming in SQL',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Procedure Programming in SQL.pdf',
+    },{
+        id: 158,
+        user: {
+            name: '2 year MCA Programming with C++ SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Programming with C++ (SEM EXAM).pdf',
+    },{
+        id: 159,
+        user: {
+            name: '2 year MCA Programming with JAVA SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Programming with JAVA (SEM EXAM).pdf',
+    },{
+        id: 160,
+        user: {
+            name: '2 year MCA Programming with Linux, Apache, MySQL, and PHP SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Programming with Linux, Apache, MySQL, and PHP (SEM EXAM).pdf',
+    },{
+        id: 161,
+        user: {
+            name: '2 year MCA Soft Computing SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Soft Computing (SEM EXAM).pdf',
+    },{
+        id: 162,
+        user: {
+            name: '2 year MCA Statistical Methods SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Statistical Methods (SEM EXAM).pdf',
+    },{
+        id: 163,
+        user: {
+            name: '2 year MCA Structured & Object Oriented Analysis & Design Methodology SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Structured & Object Oriented Analysis & Design Methodology (SEM EXAM).pdf',
+    },{
+        id: 164,
+        user: {
+            name: '2 year MCA System Software SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/System Software (SEM EXAM).pdf',
+    },{
+        id: 165,
+        user: {
+            name: '2 year MCA Visualization and Application of Cloud SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Virtualization and Application of Cloud (SEM EXAM).pdf',
+    },{
+        id: 166,
+        user: {
+            name: '2 year MCA Web Technology & Application Development SEM EXAM',
+        },
+        subject: 'Gujarat Technological University/MCA/2nd Year/Web Technology & Application Development (SEM EXAM).pdf',
     },
     ]

@@ -34,7 +34,7 @@ export class GTU extends Component<{}> {
                     <Collapse style={{padding:15,margin:15,}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>First/Second year B.Arch/B.Tech</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>First/Second year B.Arch/B.Tech/MCA</Text>
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>

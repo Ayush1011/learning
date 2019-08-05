@@ -8,14 +8,13 @@ import LinearGradient from 'react-native-linear-gradient';
 import Subjects from './Developer'
 import Questions from "./questions";
 import Amity from './university/Amity/amity_university'
-
+import firebase from 'react-native-firebase';
 import Sastra from './university/Sastra_university/sastra_university'
 import CBIT_university from './university/CBIT_university/CBIT_university'
 import NitTrichi from './university/National Institute Of Technology ,Tiruchirappalli/nit trichi university'
 import University_of_delhi from './university/University_of_delhi/University_of_delhi'
 import NitAllahabad from './university/National Institute Of Technology ,Allahabad/nit ,Allahabad_university'
 import  Vellore_university from './university/vellore_university/vellore_university'
-
 import Colleges from './College'
 // import {Button} from "react-native-vector-icons/FontAwesome5Pro";
 
@@ -45,11 +44,17 @@ export  class Home_page extends React.Component {
 
     }
     render() {
+
+
+
      const isopen=this.state.isopen
         return (
-           <View>
+            <View>
+
+
+
                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,
-                   resizeMode: 'cover',position:'absolute'}} />
+                   resizeMode: 'cover',position:'absolute',}} />
 
 
 
@@ -268,8 +273,8 @@ export  class Home_page extends React.Component {
 
             </ScrollView>
 
-
 </View>
+
 
         );
 

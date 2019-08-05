@@ -1,45 +1,105 @@
 export default [{
     id: 1,
     user: {
-        name: '4',
+        name: 'Artificial Intelligence',
     },
     subject: 'images/cse202.pdf',
 }, {
     id: 2,
     user: {
-        name: 'Robert'
+        name: 'Business Communication'
     },
     subject: 'React is <3',
 }, {
     id: 3,
     user: {
-        name: 'lovely'
+        name: 'Business Mathematics'
     },
     subject: "images/cse202.pdf",
 }
     , {
         id: 4,
         user: {
-            name: 'Georgia'
+            name: 'Business Origination'
         },
         subject: 'images/cse202.pdf',
     }, {
         id: 5,
         user: {
-            name: 'Albert'
+            name: 'Business Statistics'
         },
         subject: 'images/cse202.pdf',
     }, {
         id: 6,
         user: {
-            name: 'Zoey'
+            name: 'Capital Market'
         },
         subject: 'images/cse202.pdf',
     }, {
         id: 7,
         user: {
-            name: 'Cody'
+            name: 'Communication Skill English paper'
         },
         subject: 'images/cse202.pdf',
-    }
+    },{
+        id: 7,
+        user: {
+            name: 'Company Law'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Computer Fundamentals paper'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Computer Graphics'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Computer Networking Internet'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'COMPUTER PROGRAMMING FUNDAMENTALS'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Consumer Protection'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Communication Skill English paper'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Communication Skill English paper'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Communication Skill English paper'
+        },
+        subject: 'images/cse202.pdf',
+    },{
+        id: 7,
+        user: {
+            name: 'Communication Skill English paper'
+        },
+        subject: 'images/cse202.pdf',
+    },
     ]

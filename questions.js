@@ -5,6 +5,22 @@ import SearchInput, { createFilter } from 'react-native-search-filter';
 import emails from './bysubjects';
 import PDFView from 'react-native-view-pdf';
 import Pdfs from './second_pdfreader'
+import AI from './subjects/Artificial Intelligence/Artificial Intelligence main'
+import Business_Com from './subjects/Business Communication/Business Communication main'
+import Business_Math from './subjects/Business Mathematics/Business Mathematics main'
+import Business_org from './subjects/Business Organisation/Business Organisation main'
+import Business_Res from './subjects/Business Research Method/Business Research Method main'
+import Business_Sat from './subjects/Business Statistics/Business Statistics main'
+import Capital_Market from './subjects/Capital Markets/Capital Markets main'
+import Communication_Skill from './subjects/Communication Skill English/Communication Skill English main'
+import Company_Account from './subjects/Company Account/Company Account main'
+import Company_Law from './subjects/Company Law/Company Law main'
+import Computer_Applications from './subjects/Computer Applications in Management main/Computer Applications in Management main'
+import Computer_Fun from './subjects/Computer Fundamentals/Computer Fundamentals paper'
+import Computer_Gra from './subjects/Computer Graphics/Computer Graphics main'
+import Computer_Net from './subjects/Computer Networking Internet/Computer Networking Internet main'
+import Computer_Pro from './subjects/COMPUTER PROGRAMMING FUNDAMENTALS main/COMPUTER PROGRAMMING FUNDAMENTALS main'
+import Computer_Prot from './subjects/Consumer Protection/Consumer Protection main'
 const KEYS_TO_FILTERS = ['user.name', 'subject'];
 import {createStackNavigator, createAppContainer, DrawerActions} from 'react-navigation';
 import LinearGradient from 'react-native-linear-gradient';
@@ -30,49 +46,50 @@ export class Questions extends React.Component{
 
 
 
-    getimage=(x,name)=>
-    {
-        var storage = firebase.storage();
-
-
-
-
-        var pathReference = storage.ref(x)
-        pathReference.getDownloadURL().then((url)=> {
-
-            this.setState({
-                urit:url
-            })
-            this.props.navigation.navigate('pdf',{
-                url:url,
-                name:name
-            })
-        }).catch(function(error) {
-
-
-            switch (error.code) {
-                case 'storage/object-not-found':
-                    // File doesn't exist
-                    break;
-
-                case 'storage/unauthorized':
-                    // User doesn't have permission to access the object
-                    break;
-
-                case 'storage/canceled':
-                    // User canceled the upload
-                    break;
-
-
-
-                case 'storage/unknown':
-                    // Unknown error occurred, inspect the server response
-                    break;
-            }
-        });
+    set_screen=(x)=> {
+        if (x === 'Artificial Intelligence') {
+            this.props.navigation.navigate('AI')
+        } if (x === 'Business Communication') {
+            this.props.navigation.navigate('BC')
+        }if (x === 'Business Mathematics') {
+            this.props.navigation.navigate('BM')
+        }if (x === 'Business Origination') {
+            this.props.navigation.navigate('BO')
+        }if (x === 'Business Research Method') {
+            this.props.navigation.navigate('BR')
+        }
+        if (x === 'Business Statistics') {
+            this.props.navigation.navigate('BS')
+        }
+        if (x === 'Capital Market') {
+            this.props.navigation.navigate('CM')
+        }
+        if (x === 'Communication Skill English paper') {
+            this.props.navigation.navigate('COS')
+        }
+        if (x === 'Computer Applications in Management') {
+            this.props.navigation.navigate('Comp_A')
+        } if (x === 'Computer Fundamentals paper') {
+            this.props.navigation.navigate('CF')
+        } if (x === 'Computer Graphics') {
+            this.props.navigation.navigate('CG')
+        } if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }
+        if (x === 'Computer Networking Internet') {
+            this.props.navigation.navigate('CN')
+        }if (x === 'COMPUTER PROGRAMMING FUNDAMENTALS') {
+            this.props.navigation.navigate('CF')
+        }if (x === 'Consumer Protection') {
+            this.props.navigation.navigate('CPA')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }
     }
-
-
 
 
 
@@ -104,7 +121,7 @@ export class Questions extends React.Component{
                     {filteredEmails.map(email => {
                         return (
                             <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:10,margin:'5%'}}>
-                                <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                                <TouchableOpacity onPress={() => this.set_screen( email.user.name)} key={email.id}
                                                   style={{borderWidth: 1,borderRadius:10,width:'100%',height:50,alignContent:'center',justifyContent:'center',alignSelf:'center',borderColor:'white'}}>
 
                                     <View>
@@ -164,7 +181,23 @@ const RootStack = createStackNavigator(
 
     {
         Home:Questions,
-        pdf:Pdfs
+        pdf:Pdfs,
+        AI:AI,
+        BC:Business_Com,
+        BM:Business_Math,
+        BO:Business_org,
+        BR:Business_Res,
+        BS:Business_Sat,
+        CM:Capital_Market,
+        COS:Communication_Skill,
+        CA:Company_Account,
+        CL:Company_Law,
+        Comp_A:Computer_Applications,
+        CF:Computer_Fun,
+        CG:Computer_Gra,
+        CN:Computer_Net,
+        CP:Computer_Pro,
+        CPA:Computer_Prot,
 
     },
     {
