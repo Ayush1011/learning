@@ -9,7 +9,7 @@ import {createAppContainer, createStackNavigator} from "react-navigation";
 import {Collapse, CollapseBody, CollapseHeader} from "accordion-collapse-react-native";
 import LinearGradient from "react-native-linear-gradient";
 import * as Animatable from "react-native-animatable";
-import {Business_Math} from "../Business Communication/Business Communication main";
+
 
 
 export class Business_Math extends Component<{}> {

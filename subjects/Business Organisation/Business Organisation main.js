@@ -9,7 +9,7 @@ import {createAppContainer, createStackNavigator} from "react-navigation";
 import {Collapse, CollapseBody, CollapseHeader} from "accordion-collapse-react-native";
 import LinearGradient from "react-native-linear-gradient";
 import * as Animatable from "react-native-animatable";
-import {Business_Math} from "../Business Communication/Business Communication main";
+
 
 
 export class Business_org extends Component<{}> {
@@ -32,7 +32,7 @@ export class Business_org extends Component<{}> {
                     <Collapse style={{padding:15,margin:15,}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>Business Mathematics</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>Business Organisation</Text>
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
