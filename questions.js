@@ -21,6 +21,8 @@ import Computer_Gra from './subjects/Computer Graphics/Computer Graphics main'
 import Computer_Net from './subjects/Computer Networking Internet/Computer Networking Internet main'
 import Computer_Pro from './subjects/COMPUTER PROGRAMMING FUNDAMENTALS main/COMPUTER PROGRAMMING FUNDAMENTALS main'
 import Computer_Prot from './subjects/Consumer Protection/Consumer Protection main'
+import Cost_Ac from './subjects/Cost Accounting/Cost Accounting main'
+import Cyber_sec from './subjects/Cyber Security/Cyber Security main'
 const KEYS_TO_FILTERS = ['user.name', 'subject'];
 import {createStackNavigator, createAppContainer, DrawerActions} from 'react-navigation';
 import LinearGradient from 'react-native-linear-gradient';
@@ -82,6 +84,18 @@ export class Questions extends React.Component{
             this.props.navigation.navigate('CF')
         }if (x === 'Consumer Protection') {
             this.props.navigation.navigate('CPA')
+        }if (x === 'Cost Accounting') {
+            this.props.navigation.navigate('CAC')
+        }if (x === 'Cyber Security') {
+            this.props.navigation.navigate('C_SEC')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
+        }if (x === 'Company Law') {
+            this.props.navigation.navigate('CL')
         }if (x === 'Company Law') {
             this.props.navigation.navigate('CL')
         }if (x === 'Company Law') {
@@ -89,6 +103,7 @@ export class Questions extends React.Component{
         }if (x === 'Company Law') {
             this.props.navigation.navigate('CL')
         }
+
     }
 
 
@@ -198,6 +213,8 @@ const RootStack = createStackNavigator(
         CN:Computer_Net,
         CP:Computer_Pro,
         CPA:Computer_Prot,
+        CAC:Cost_Ac,
+        C_SEC:Cyber_sec,
 
     },
     {

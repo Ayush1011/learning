@@ -80,13 +80,13 @@ export default [{
     },{
         id: 7,
         user: {
-            name: 'Communication Skill English paper'
+            name: 'Cost Accounting'
         },
         subject: 'images/cse202.pdf',
     },{
         id: 7,
         user: {
-            name: 'Communication Skill English paper'
+            name: 'Cyber Security'
         },
         subject: 'images/cse202.pdf',
     },{
