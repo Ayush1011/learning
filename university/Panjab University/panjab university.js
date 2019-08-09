@@ -38,18 +38,18 @@ export class Panjab extends Component<{}> {
                     <Collapse style={{padding:15,margin:15,}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>B.A_B.Sc (General)</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>B.A_B.Sc (General)</Text>
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('first')}
                                 >
 
 
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥B.A_B.Sc (General) all Year</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥B.A_B.Sc (General) all Year</Animatable.Text>
 
 
 
@@ -62,16 +62,16 @@ export class Panjab extends Component<{}> {
                     <Collapse style={{padding:15,margin:15}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>B.Com </Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>B.Com </Text>
                             </View>
                         </CollapseHeader>
 
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('second')}>
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥B.Com all year🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥B.Com all year🔥</Animatable.Text>
 
 
                                 </TouchableOpacity>
@@ -84,16 +84,16 @@ export class Panjab extends Component<{}> {
                     <Collapse style={{padding:15,margin:15}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>BCA</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>BCA</Text>
                             </View>
                         </CollapseHeader>
 
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('third')}>
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥BCA all Year🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥BCA all Year🔥</Animatable.Text>
 
 
                                 </TouchableOpacity>
@@ -109,16 +109,16 @@ export class Panjab extends Component<{}> {
                     <Collapse style={{padding:15,margin:15}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>M.A</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>M.A</Text>
                             </View>
                         </CollapseHeader>
 
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('forth')}>
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥MA all Year🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥MA all Year🔥</Animatable.Text>
 
 
                                 </TouchableOpacity>
@@ -132,16 +132,16 @@ export class Panjab extends Component<{}> {
                     <Collapse style={{padding:15,margin:15}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>M.Com-M.Sc</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>M.Com-M.Sc</Text>
                             </View>
                         </CollapseHeader>
 
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('fifth')}>
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥M.Com/M.Sc 🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥M.Com/M.Sc 🔥</Animatable.Text>
 
 
                                 </TouchableOpacity>
@@ -276,11 +276,11 @@ class  BA_BSc extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -406,11 +406,11 @@ class Bcom extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -534,11 +534,11 @@ class Bca extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -673,11 +673,11 @@ class  MA extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -810,11 +810,11 @@ class Mcom_Msc extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -872,9 +872,9 @@ const styles = StyleSheet.create({
     },
     emailItem:{
         borderBottomWidth: 0.5,
-        borderColor: 'white',
+        borderColor: 'grey',
         padding: 10,
-        margin:5,color:'white'
+        margin:5,color:'grey'
     },
     emailSubject: {
         color: 'rgba(0,0,0,0.5)'

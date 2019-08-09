@@ -35,7 +35,7 @@ export class Soft_Eng extends Component<{}> {
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('main')}
                                 >
@@ -172,7 +172,7 @@ class Main extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>

@@ -53,8 +53,9 @@ export  class Home_page extends React.Component {
 
 
 
-               <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,
-                   resizeMode: 'cover',position:'absolute',}} />
+               <Image source={require('./android/pic/background.jpg')} style={{
+                   resizeMode: 'cover',position:'absolute',height:'100%'
+                  }} />
 
 
 
@@ -87,8 +88,8 @@ export  class Home_page extends React.Component {
 
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('college')} style={{flex:.32, marginLeft: '2%'}} >
 
-                                <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:35}} >
-                                    <View style={{width: '100%', height: 100, borderRadius: 50,}}>
+                                <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:15}} >
+                                    <View style={{width: '100%', height: 100, borderRadius: 10,}}>
 
                                         <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite"
                                                          style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"15%",color:'white',alignItems: "center"}}>Search By College</Animatable.Text>
@@ -104,9 +105,9 @@ export  class Home_page extends React.Component {
 
 
 
-                            : <TouchableOpacity onPress={()=>this.props.navigation.navigate('college')} style={{flex:.40, marginLeft: '-60%',transition:'2s'}}>
-                                <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:35}} >
-                                    <View style={{width: '100%', height: 100, borderRadius: 50,}}>
+                            : <TouchableOpacity onPress={()=>this.props.navigation.navigate('college')} style={{flex:.40, marginLeft: '-70%',transition:'2s'}}>
+                                <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:15}} >
+                                    <View style={{width: '100%', height: 100, borderRadius: 10,}}>
 
                                         <Text style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"20%",color:'white',alignItems: "center"}}>Search By College</Text>
                                     </View>
@@ -121,14 +122,14 @@ export  class Home_page extends React.Component {
 
                         <View style={{width: '100%', height: 100, borderRadius: 50,flexDirection:'row',alignItems:'center',justifyContent:'center',alignSelf:'center'}}>
 
-                            <TouchableOpacity style={{width:50,borderRadius:50,height:50,backgroundColor:"grey",marginTop:"5%",margin:'2%'}}
+                            <TouchableOpacity style={{width:50,borderRadius:50,height:50,backgroundColor:"#9dd3e4",marginTop:"5%",margin:'2%'}}
                                               onPress={()=>this.setState({isopen:!this.state.isopen})}>
                                 <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:25,color:'white',alignItems: "center",margin:"16%"}}>🏢</Animatable.Text>
 
                             </TouchableOpacity>
 
 
-                            <TouchableOpacity style={{width:50,borderRadius:50,height:50,backgroundColor:"grey",marginTop:"5%",margin:"2%"}}
+                            <TouchableOpacity style={{width:50,borderRadius:50,height:50,backgroundColor:"#9dd3e4",marginTop:"5%",margin:"2%"}}
                                               onPress={()=>this.setState({isopenRight:!this.state.isopenRight})}>
                                 <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:25,color:'white',alignItems: "center",margin:"16%"}}>📖</Animatable.Text>
 
@@ -145,8 +146,8 @@ export  class Home_page extends React.Component {
                         {this.state.isopenRight === true ?
                             <TouchableOpacity onPress={() => this.props.navigation.navigate('questions')}
                                               style={{flex: .32, marginRight: '2%'}}>
-                                <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius: 35}}>
-                                    <View style={{width: '100%', height: 100, borderRadius: 50,}}>
+                                <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius: 15}}>
+                                    <View style={{width: '100%', height: 100, borderRadius: 10,}}>
 
 
                                         <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"15%",color:'white',alignItems: "center"}}>Major Topics For Exam</Animatable.Text>
@@ -160,9 +161,9 @@ export  class Home_page extends React.Component {
 
 
                             <TouchableOpacity onPress={() => this.props.navigation.navigate('questions')}
-                                              style={{flex: .40, marginRight: '-60%'}}>
-                                <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius: 35}}>
-                                    <View style={{width: '100%', height: 100, borderRadius: 50,}}>
+                                              style={{flex: .40, marginRight: '-70%'}}>
+                                <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius: 15}}>
+                                    <View style={{width: '100%', height: 100, borderRadius: 10,}}>
 
 
                                         <Text style={{
@@ -202,7 +203,7 @@ export  class Home_page extends React.Component {
                             margin: 5,
                         }}>
                             <TouchableOpacity onPress={()=>this.props.navigation.navigate('amity')}>
-                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:50,margin:5}}>
+                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:5}}>
                                     <View
                                         style={{width: 270, height: 150, borderRadius: 45, margin: 5,}}>
 
@@ -214,7 +215,7 @@ export  class Home_page extends React.Component {
                                 </LinearGradient>
                             </TouchableOpacity>
                             <TouchableOpacity onPress={()=>this.props.navigation.navigate('nitT')}>
-                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:50,margin:5}}>
+                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:5}}>
                             <View
                                 style={{width: 250, height: 150, borderRadius: 45, margin: 5,}}>
 
@@ -228,13 +229,13 @@ export  class Home_page extends React.Component {
 
 
                             <TouchableOpacity onPress={()=>this.props.navigation.navigate('University_of_delhi')}>
-                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:50,margin:5}}>
+                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:5}}>
                             <View
                                 style={{width: 250, height: 150, borderRadius: 45, margin: 5,}}>
 
                                 <Image source={{uri:'https://upload.wikimedia.org/wikipedia/en/8/84/University_of_Delhi.png'}}  style={{width:95,height:95,margin:25}}/>
 
-                                <Text style={{marginLeft:150,color:'white',position:'absolute',marginTop:50,fontSize:20,fontFamily: 'Cochin'}}>university of delhi</Text>
+                                <Text style={{marginLeft:150,color:'white',position:'absolute',marginTop:50,fontSize:20,fontFamily: 'Cochin'}}>University Of Delhi</Text>
 
 
                             </View>
@@ -242,7 +243,7 @@ export  class Home_page extends React.Component {
 
                             </TouchableOpacity>
                             <TouchableOpacity onPress={()=>this.props.navigation.navigate('cbit')}>
-                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:50,margin:5}}>
+                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:5}}>
                             <View
                                 style={{width: 250, height: 150, borderRadius: 45, margin: 5,}}>
 
@@ -254,7 +255,7 @@ export  class Home_page extends React.Component {
                                 </LinearGradient>
                             </TouchableOpacity>
                             <TouchableOpacity onPress={()=>this.props.navigation.navigate('nitA')}>
-                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:50,margin:5}}>
+                                <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:5}}>
                             <View
                                 style={{width: 250, height: 150, borderRadius: 45, margin: 5,}}>
 
@@ -303,7 +304,7 @@ const styles = StyleSheet.create({
         fontFamily: 'Gill Sans',
         textAlign: 'center',
         margin: 10,
-        color: '#ffffff',
+        color: '#9dd3e4',
         backgroundColor: 'transparent',
     },
 

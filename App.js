@@ -402,8 +402,8 @@ export class PhoneAuthTest extends React.Component {
               <View
                   style={{flex: 1,}}>
 
-                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,
-                  resizeMode: 'cover',position:'absolute'}}/>
+                {/*<Image source={require('./android/pic/background.jpg')} style={{ flex: 1,*/}
+                {/*  resizeMode: 'cover',position:'absolute'}}/>*/}
                 {/*<Text style={{ fontSize: 25, position: 'absolute',margin:15,alignSelf:'center' ,color:'white'}}>Signed In!</Text>*/}
                 <Text style={{ fontSize: 20, position: 'absolute',color:'white',marginTop:500,alignSelf:'center' }}>{JSON.stringify(user)}</Text>
 

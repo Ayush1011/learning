@@ -7,9 +7,9 @@ const KEYS_TO_FILTERS = ['user.name', 'subject'];
 import Pdfs from '../../pdfreader'
 import firebase from "react-native-firebase";
 
-import DialogProgress from 'react-native-dialog-progress'
+
 import {createAppContainer, createStackNavigator} from "react-navigation";
-import {Dialog} from "react-native-simple-dialogs";
+
 import * as Animatable from "react-native-animatable";
 import LinearGradient from "react-native-linear-gradient";
 import {Collapse, CollapseBody, CollapseHeader} from "accordion-collapse-react-native";
@@ -36,18 +36,18 @@ export class University_of_delhi extends Component<{}> {
                     <Collapse style={{padding:15,margin:15,}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>1/2 year B.Tech/B.com</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>1/2 year B.Tech/B.com</Text>
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('first')}
                                 >
 
 
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>1/2 year B.Tech/B.com🔥🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>1/2 year B.Tech/B.com🔥🔥</Animatable.Text>
 
 
 
@@ -60,16 +60,16 @@ export class University_of_delhi extends Component<{}> {
                     <Collapse style={{padding:15,margin:15}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}>3/4 year B.Tech/B.com</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>3/4 year B.Tech/B.com</Text>
                             </View>
                         </CollapseHeader>
 
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
                                 <TouchableOpacity onPress={()=>this.props.navigation.navigate('second')}>
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>3/4 year B.Tech/B.com🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>3/4 year B.Tech/B.com🔥</Animatable.Text>
 
 
                                 </TouchableOpacity>
@@ -195,11 +195,11 @@ class Year1 extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -325,11 +325,11 @@ class Year2 extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -362,9 +362,9 @@ const styles = StyleSheet.create({
     },
     emailItem:{
         borderBottomWidth: 0.5,
-        borderColor: 'white',
+        borderColor: 'grey',
         padding: 10,
-        margin:5,color:'white'
+        margin:5,color:'grey'
     },
     emailSubject: {
         color: 'rgba(0,0,0,0.5)'

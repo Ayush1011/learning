@@ -129,7 +129,7 @@ export  class Colleges extends Component<{}> {
         return (
             <ScrollView>
             <View >
-                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,
+                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,height:'110%',
                     resizeMode: 'cover',position:'absolute'}} />
                 <SearchInput
                     onChangeText={(term) => { this.searchUpdated(term) }}
@@ -146,7 +146,7 @@ export  class Colleges extends Component<{}> {
 
                     {filteredEmails.map(email => {
                         return (
-                            <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#7D7984', '#716E77', '#8e8e8e',]} style={{width:300,margin:5,height:150,borderRadius: 50,marginBottom:30,}} >
+                            <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{width:300,margin:5,height:150,borderRadius: 10,marginBottom:30,}} >
                             <TouchableOpacity onPress={()=>this.set_screen(email.user.name)} key={email.id} >
                                 <View>
                                     <Text  style={{alignContent:'center',justifyContent:'center',alignSelf:'center',textAlign: 'center',margin:15,fontSize:20,color:'white'}}>{email.user.name}</Text>

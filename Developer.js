@@ -29,7 +29,7 @@ export class Developer extends Component<{}> {
 
 
             <View>
-                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,
+                <Image source={require('./android/pic/background.jpg')} style={{ flex: 1,height:"110%",
                     resizeMode: 'cover',position:'absolute'}} />
 
                 {/*<Button title={'download files'} onPress={()=>this.getimage()} />*/}
@@ -39,7 +39,7 @@ export class Developer extends Component<{}> {
 
 
 
-                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#7D7984', '#716E77', '#8e8e8e',]} style={{width:300,margin:5,height:150,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
+                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{width:300,margin:5,height:150,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
                         <TouchableOpacity >
                             <View>
                                 <Text  style={{alignContent:'center',justifyContent:'center',alignSelf:'center',textAlign: 'center',margin:15,fontSize:20,color:'white'}}>Developer</Text>
@@ -50,7 +50,7 @@ export class Developer extends Component<{}> {
 
                     </LinearGradient>
 
-                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#7D7984', '#716E77', '#8e8e8e',]} style={{width:300,margin:5,height:150,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
+                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{width:300,margin:5,height:150,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
                         <TouchableOpacity >
                             <View>
                                 <Text  style={{alignContent:'center',justifyContent:'center',alignSelf:'center',textAlign: 'center',margin:15,fontSize:25,color:'white'}}>Contributer</Text>
@@ -60,7 +60,7 @@ export class Developer extends Component<{}> {
                         </TouchableOpacity>
 
                     </LinearGradient>
-                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#7D7984', '#716E77', '#8e8e8e',]} style={{width:300,margin:5,height:100,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
+                    <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{width:300,margin:5,height:100,borderRadius: 50,marginBottom:30,marginLeft:"8%",marginTop:50}} >
                         <TouchableOpacity onPress={() => Linking.openURL('mailto:ayushraichand1@gmail.com?cc=Upload your paper &body=Happy to help\n'
                             )}>
                             <View>

@@ -128,7 +128,7 @@ export const Tab_1 = createBottomTabNavigator ({
 
         },
         showIcon: true,
-        style: { height: 54,borderTopWidth:0.5,backgroundColor: '#BAB4C4', },
+        style: { height: 54,borderTopWidth:0.5,backgroundColor: '#B4FEFF', },
         showLabel: true,
 
 
@@ -214,7 +214,7 @@ export const Tab_2 = createBottomTabNavigator ({
 
             },
             showIcon: true,
-            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#BAB4C4', },
+            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#B4FEFF', },
             showLabel: true,
 
 
@@ -300,7 +300,7 @@ export const Tab_3 = createBottomTabNavigator ({
 
             },
             showIcon: true,
-            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#BAB4C4', },
+            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#B4FEFF', },
             showLabel: true,
 
 
@@ -385,7 +385,7 @@ export const Tab_4 = createBottomTabNavigator ({
 
             },
             showIcon: true,
-            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#BAB4C4', },
+            style: { height: 54,borderTopWidth:0.5,backgroundColor: '#B4FEFF', },
             showLabel: true,
 
 
@@ -445,7 +445,7 @@ const First_2_Tabs =createStackNavigator ({
             headerLeft: <HamburgerIcon navigationProps={navigation} />,
             headerStyle: {
 
-                backgroundColor: '#BAB4C4',
+                backgroundColor: '#B4FEFF',
 
 
             },
@@ -470,7 +470,7 @@ const First_3_Tabs =createStackNavigator ({
             headerLeft: <HamburgerIcon navigationProps={navigation} />,
             headerStyle: {
 
-                backgroundColor: '#BAB4C4',
+                backgroundColor: '#B4FEFF',
 
 
             },
@@ -495,7 +495,7 @@ const First_4_Tabs =createStackNavigator ({
             headerLeft: <HamburgerIcon navigationProps={navigation} />,
             headerStyle: {
 
-                backgroundColor: '#BAB4C4',
+                backgroundColor: '#B4FEFF',
 
 
             },
@@ -517,7 +517,7 @@ const First_5_Tabs =createStackNavigator ({
             headerLeft: <HamburgerIcon navigationProps={navigation} />,
             headerStyle: {
 
-                backgroundColor: '#BAB4C4',
+                backgroundColor: '#B4FEFF',
 
 
             },

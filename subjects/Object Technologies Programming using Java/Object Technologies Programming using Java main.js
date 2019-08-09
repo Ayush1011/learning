@@ -172,7 +172,7 @@ class Main extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>

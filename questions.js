@@ -221,7 +221,7 @@ export class Questions extends React.Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#938F9B', '#8F8A96', '#716E77',]} style={{borderRadius:10,margin:'5%'}}>
+                            <LinearGradient start={{x: 0, y: 0}} end={{x: 1, y: 0}} colors={['#9dd3e4', '#9dd3e4', '#9dd3e4',]} style={{borderRadius:10,margin:'5%'}}>
                                 <TouchableOpacity onPress={() => this.set_screen( email.user.name)} key={email.id}
                                                   style={{borderWidth: 1,borderRadius:10,width:'100%',height:50,alignContent:'center',justifyContent:'center',alignSelf:'center',borderColor:'white'}}>
 

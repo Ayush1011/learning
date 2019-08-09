@@ -18,7 +18,7 @@ export class BrAmbedekar_university extends Component<{}> {
 
         return (
 
-            <View style={styles.container}>
+            <View >
                 <Image source={require('../../android/pic/background.jpg')} style={{ flex: 1,
                     resizeMode: 'cover',position:'absolute'}} />
 
@@ -29,18 +29,17 @@ export class BrAmbedekar_university extends Component<{}> {
                     <Collapse style={{padding:15,margin:15,}}>
                         <CollapseHeader style={{width:300,height:50,margin:15}}>
                             <View>
-                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'white'}}> all subjects</Text>
+                                <Text style={{justifyContent:'center',textAlign: 'center',borderWidth:2,borderColor:'grey',borderRadius:30,padding:15,fontSize: 15,fontFamily:'algerian',color: 'grey'}}>First year all subjects</Text>
                             </View>
                         </CollapseHeader>
                         <CollapseBody  style={{padding:15,margin:15,borderRadius:30,justifyContent:'center',alignItems:'center'}}>
-                            <LinearGradient colors={['#938F9B', '#8F8A96', '#716E77',]}
+                            <LinearGradient colors={['#9dd3e4', '#9dd3e4', '#716E77',]}
                                             style={{fontSize:15,borderRadius:15,width:'100%',position:'absolute'}}>
-                                <TouchableOpacity onPress={()=>this.props.navigation.navigate('first')}
-                                >
+                                <TouchableOpacity onPress={()=>this.props.navigation.navigate('first')}>
 
 
 
-                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'white',alignItems: "center"}}>🔥All year all subjects🔥</Animatable.Text>
+                                    <Animatable.Text animation="pulse" easing="ease-in-out" iterationCount="infinite" style={{alignSelf:'center',justifyContent:'center',textAlign: 'center',fontSize:15,margin:"5%",color:'grey',alignItems: "center"}}>🔥1 year all subjects🔥</Animatable.Text>
 
 
 
@@ -50,9 +49,7 @@ export class BrAmbedekar_university extends Component<{}> {
 
                         </CollapseBody>
                     </Collapse>
-
                 </View>
-
 
 
 
@@ -168,11 +165,11 @@ class Year1 extends Component{
                 <ScrollView>
                     {filteredEmails.map(email => {
                         return (
-                            <TouchableOpacity onPress={() => this.getimage(email.subject, email.user.name)} key={email.id}
+                            <TouchableOpacity onPress={() => {this.getimage(email.subject, email.user.name);alert('DOWNLOADING,\ndepends on your network')}} key={email.id}
                                               style={styles.emailItem}>
 
                                 <View>
-                                    <Text style={{color:'white'}}>{email.user.name}</Text>
+                                    <Text style={{color:'grey'}}>{email.user.name}</Text>
 
                                 </View>
                             </TouchableOpacity>
@@ -207,7 +204,7 @@ const styles = StyleSheet.create({
     },
     emailItem:{
         borderBottomWidth: 0.5,
-        borderColor: 'white',
+        borderColor: 'grey',
         padding: 10,
         margin:5
     },
